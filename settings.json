@@ -20,10 +20,13 @@
       "colorScheme": "Gruvbox Material Dark",
       "cursorShape": "vintage",
       "font": {
-        "face": "Fira Code Retina",
-        "size": 12
+        "face": "Cascadia Code",
+        "size": 13,
+        // "face": "Fira Code Retina",
+        // "size": 12
       },
       "icon": null,
+      "intenseTextStyle": "bright",
       "padding": "4, 4, 4, 4",
       "scrollbarState": "hidden"
     },
