@@ -21,12 +21,15 @@
       "cursorShape": "vintage",
       "font": {
         "face": "Cascadia Code",
+        "features": {
+          "calt": 1,
+          "ss01": 1
+        },
         "size": 13,
-        // "face": "Fira Code Retina",
-        // "size": 12
+        "weight": "normal"
       },
       "icon": null,
-      "intenseTextStyle": "bright",
+      "intenseTextStyle": "bold",
       "padding": "4, 4, 4, 4",
       "scrollbarState": "hidden"
     },
