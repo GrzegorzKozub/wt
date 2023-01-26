@@ -1,6 +1,25 @@
 {
+  "$help": "https://aka.ms/terminal-documentation",
   "$schema": "https://aka.ms/terminal-profiles-schema",
-
+  "actions": [{
+      "command": "commandPalette",
+      "keys": "f1"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "horizontal"
+      },
+      "keys": "alt+shift+h"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "vertical"
+      },
+      "keys": "alt+shift+v"
+    }
+  ],
   "confirmCloseAllTabs": false,
   "copyFormatting": "none",
   "copyOnSelect": true,
@@ -8,11 +27,6 @@
   "disableAnimations": true,
   "initialCols": 120,
   "initialRows": 30,
-  "tabSwitcherMode": "disabled",
-  "tabWidthMode": "titleLength",
-  "useAcrylicInTabRow": true,
-  "windowingBehavior": "useAnyExisting",
-
   "profiles": {
     "defaults": {
       "antialiasingMode": "cleartype",
@@ -31,7 +45,8 @@
       "icon": null,
       "intenseTextStyle": "bold",
       "padding": "4, 4, 4, 4",
-      "scrollbarState": "hidden"
+      "scrollbarState": "hidden",
+      "useAtlasEngine": true
     },
     "list": [{
         "commandline": "pwsh.exe -NoLogo",
@@ -48,7 +63,6 @@
       }
     ]
   },
-
   "schemes": [{
       // https://ethanschoonover.com/solarized
       "name": "Solarized Light",
@@ -218,24 +232,10 @@
       "brightWhite": "#d4be98"
     }
   ],
-
-  "actions": [{
-      "command": "commandPalette",
-      "keys": "f1"
-    },
-    {
-      "command": {
-        "action": "splitPane",
-        "split": "horizontal"
-      },
-      "keys": "alt+shift+h"
-    },
-    {
-      "command": {
-        "action": "splitPane",
-        "split": "vertical"
-      },
-      "keys": "alt+shift+v"
-    }
-  ]
+  "tabSwitcherMode": "disabled",
+  "tabWidthMode": "titleLength",
+  "theme": "dark",
+  "themes": [],
+  "useAcrylicInTabRow": true,
+  "windowingBehavior": "useAnyExisting"
 }
