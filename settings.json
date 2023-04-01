@@ -14,7 +14,8 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "right"
+                "split": "right",
+                "splitMode": "duplicate"
             },
             "keys": "alt+shift+v"
         },
@@ -22,9 +23,14 @@
             "command": 
             {
                 "action": "splitPane",
-                "split": "down"
+                "split": "down",
+                "splitMode": "duplicate"
             },
             "keys": "alt+shift+h"
+        },
+        {
+            "command": "togglePaneZoom",
+            "keys": "alt+shift+z"
         }
     ],
     "confirmCloseAllTabs": false,
