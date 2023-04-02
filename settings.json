@@ -395,11 +395,11 @@
     ],
     "tabSwitcherMode": "disabled",
     "tabWidthMode": "titleLength",
-    "theme": "greg",
+    "theme": "My",
     "themes": 
     [
         {
-            "name": "greg",
+            "name": "My",
             "window": 
             {
                 "applicationTheme": "dark",
