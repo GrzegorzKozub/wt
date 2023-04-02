@@ -33,6 +33,7 @@
             "keys": "alt+shift+z"
         }
     ],
+    "centerOnLaunch": true,
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": true,
