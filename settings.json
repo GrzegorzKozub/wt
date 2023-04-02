@@ -41,6 +41,12 @@
     "disableAnimations": true,
     "initialCols": 120,
     "initialRows": 30,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
@@ -389,8 +395,18 @@
     ],
     "tabSwitcherMode": "disabled",
     "tabWidthMode": "titleLength",
-    "theme": "dark",
-    "themes": [],
+    "theme": "greg",
+    "themes": 
+    [
+        {
+            "name": "greg",
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": true
+            }
+        }
+    ],
     "useAcrylicInTabRow": true,
     "windowingBehavior": "useAnyExisting"
 }
