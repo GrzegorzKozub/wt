@@ -34,7 +34,6 @@
         }
     ],
     "centerOnLaunch": true,
-    "compatibility.enableUnfocusedAcrylic": true,
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": true,
@@ -72,10 +71,6 @@
             "opacity": 100,
             "padding": "4, 4, 4, 4",
             "scrollbarState": "hidden",
-            "unfocusedAppearance": 
-            {
-                "useAcrylic": false
-            },
             "useAcrylic": false,
             "useAtlasEngine": true
         },
