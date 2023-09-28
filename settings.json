@@ -1,6 +1,6 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
-    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
     "actions": 
     [
         {
@@ -34,6 +34,7 @@
         }
     ],
     "centerOnLaunch": true,
+    "compatibility.enableUnfocusedAcrylic": true,
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": true,
@@ -68,8 +69,14 @@
             },
             "icon": null,
             "intenseTextStyle": "bold",
+            "opacity": 100,
             "padding": "4, 4, 4, 4",
             "scrollbarState": "hidden",
+            "unfocusedAppearance": 
+            {
+                "useAcrylic": false
+            },
+            "useAcrylic": false,
             "useAtlasEngine": true
         },
         "list": 
@@ -400,10 +407,25 @@
     [
         {
             "name": "My",
+            "tab": 
+            {
+                "background": "terminalBackground",
+                "iconStyle": "hidden",
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "tabRow": 
+            {
+                "background": "terminalBackground",
+                "unfocusedBackground": null
+            },
             "window": 
             {
                 "applicationTheme": "dark",
-                "useMica": true
+                "experimental.rainbowFrame": false,
+                "frame": "accent",
+                "unfocusedFrame": null,
+                "useMica": false
             }
         }
     ],
