@@ -11,6 +11,10 @@
             "keys": "f1"
         },
         {
+            "command": "toggleShaderEffects",
+            "keys": "f2"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -18,6 +22,15 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+v"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 100,
+                "relative": false
+            },
+            "keys": "ctrl+\\"
         },
         {
             "command": 
@@ -31,6 +44,24 @@
         {
             "command": "togglePaneZoom",
             "keys": "alt+shift+z"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": -5,
+                "relative": true
+            },
+            "keys": "ctrl+["
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
+                "opacity": 5,
+                "relative": true
+            },
+            "keys": "ctrl+]"
         }
     ],
     "centerOnLaunch": true,
@@ -71,7 +102,7 @@
             "opacity": 100,
             "padding": "4, 4, 4, 4",
             "scrollbarState": "hidden",
-            "useAcrylic": false,
+            "useAcrylic": true,
             "useAtlasEngine": true
         },
         "list": 
@@ -418,12 +449,12 @@
             {
                 "applicationTheme": "dark",
                 "experimental.rainbowFrame": false,
-                "frame": "accent",
+                "frame": null,
                 "unfocusedFrame": null,
                 "useMica": false
             }
         }
     ],
-    "useAcrylicInTabRow": true,
+    "useAcrylicInTabRow": false,
     "windowingBehavior": "useAnyExisting"
 }
