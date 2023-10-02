@@ -27,10 +27,10 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 100,
+                "opacity": 95,
                 "relative": false
             },
-            "keys": "ctrl+\\"
+            "keys": "ctrl+shift+0"
         },
         {
             "command": 
@@ -52,7 +52,7 @@
                 "opacity": -5,
                 "relative": true
             },
-            "keys": "ctrl+["
+            "keys": "ctrl+shift+minus"
         },
         {
             "command": 
@@ -61,7 +61,7 @@
                 "opacity": 5,
                 "relative": true
             },
-            "keys": "ctrl+]"
+            "keys": "ctrl+shift+plus"
         }
     ],
     "centerOnLaunch": true,
@@ -99,7 +99,7 @@
             },
             "icon": null,
             "intenseTextStyle": "bold",
-            "opacity": 100,
+            "opacity": 95,
             "padding": "4, 4, 4, 4",
             "scrollbarState": "hidden",
             "useAcrylic": true,
