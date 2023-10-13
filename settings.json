@@ -17,20 +17,20 @@
         {
             "command": 
             {
-                "action": "splitPane",
-                "split": "right",
-                "splitMode": "duplicate"
-            },
-            "keys": "alt+shift+v"
-        },
-        {
-            "command": 
-            {
                 "action": "adjustOpacity",
                 "opacity": 95,
                 "relative": false
             },
             "keys": "ctrl+shift+0"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "right",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+v"
         },
         {
             "command": 
