@@ -6,10 +6,18 @@
         {
             "command": 
             {
-                "action": "swapPane",
-                "direction": "down"
+                "action": "adjustOpacity",
+                "opacity": 95,
+                "relative": false
             },
-            "keys": "alt+shift+down"
+            "keys": "ctrl+shift+0"
+        },
+        {
+            "command": 
+            {
+                "action": "commandPalette"
+            },
+            "keys": "f1"
         },
         {
             "command": 
@@ -22,26 +30,10 @@
         {
             "command": 
             {
-                "action": "commandPalette"
-            },
-            "keys": "f1"
-        },
-        {
-            "command": 
-            {
-                "action": "adjustOpacity",
-                "opacity": 95,
-                "relative": false
-            },
-            "keys": "ctrl+shift+0"
-        },
-        {
-            "command": 
-            {
-                "action": "resizePane",
+                "action": "swapPane",
                 "direction": "down"
             },
-            "keys": "ctrl+alt+down"
+            "keys": "alt+shift+down"
         },
         {
             "command": 
@@ -55,9 +47,25 @@
             "command": 
             {
                 "action": "resizePane",
+                "direction": "down"
+            },
+            "keys": "ctrl+alt+down"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
                 "direction": "right"
             },
             "keys": "ctrl+alt+right"
+        },
+        {
+            "command": 
+            {
+                "action": "swapPane",
+                "direction": "up"
+            },
+            "keys": "alt+shift+up"
         },
         {
             "command": 
@@ -67,14 +75,6 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+v"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "up"
-            },
-            "keys": "alt+shift+up"
         },
         {
             "command": 
@@ -102,6 +102,10 @@
             "keys": "ctrl+alt+up"
         },
         {
+            "command": "togglePaneZoom",
+            "keys": "alt+shift+z"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
@@ -111,8 +115,12 @@
             "keys": "alt+shift+h"
         },
         {
-            "command": "togglePaneZoom",
-            "keys": "alt+shift+z"
+            "command": "markMode",
+            "keys": "ctrl+shift+["
+        },
+        {
+            "command": "toggleBlockSelection",
+            "keys": "ctrl+q"
         },
         {
             "command": 
