@@ -177,7 +177,6 @@
             {
                 "commandline": "pwsh.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "icon": "D:\\Apps\\PowerShell\\pwsh.exe",
                 "name": "pwsh"
             },
             {
