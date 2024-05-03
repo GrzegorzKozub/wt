@@ -155,6 +155,10 @@
     "copyOnSelect": true,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
+    "disabledProfileSources": 
+    [
+        "Windows.Terminal.Azure"
+    ],
     "initialCols": 120,
     "initialRows": 30,
     "newTabMenu": 
@@ -169,7 +173,7 @@
         {
             "antialiasingMode": "cleartype",
             "bellStyle": "none",
-            "colorScheme": "Gruvbox Material Dark",
+            "colorScheme": "Gruvbox Material Dark (my)",
             "cursorShape": "bar",
             "font": 
             {
@@ -185,7 +189,7 @@
             "icon": null,
             "intenseTextStyle": "bold",
             "opacity": 95,
-            "padding": "4, 4, 4, 4",
+            "padding": "8, 8, 8, 8",
             "scrollbarState": "hidden",
             "useAcrylic": true
         },
@@ -194,18 +198,12 @@
             {
                 "commandline": "pwsh.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "pwsh"
+                "name": "PowerShell"
             },
             {
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
                 "name": "Command Prompt"
-            },
-            {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": true,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
             }
         ]
     },
@@ -227,7 +225,7 @@
             "cyan": "#689D6A",
             "foreground": "#D5C4A1",
             "green": "#98971A",
-            "name": "Gruvbox Dark",
+            "name": "Gruvbox Dark (my)",
             "purple": "#B16286",
             "red": "#CC241D",
             "selectionBackground": "#665C54",
@@ -250,7 +248,7 @@
             "cyan": "#689D6A",
             "foreground": "#504945",
             "green": "#98971A",
-            "name": "Gruvbox Light",
+            "name": "Gruvbox Light (my)",
             "purple": "#B16286",
             "red": "#CC241D",
             "selectionBackground": "#BDAE93",
@@ -273,7 +271,7 @@
             "cyan": "#4C7A5D",
             "foreground": "#D4BE98",
             "green": "#6C782E",
-            "name": "Gruvbox Material Dark",
+            "name": "Gruvbox Material Dark (my)",
             "purple": "#945E80",
             "red": "#C14A4A",
             "selectionBackground": "#665C54",
@@ -296,7 +294,7 @@
             "cyan": "#89B482",
             "foreground": "#654735",
             "green": "#A9B665",
-            "name": "Gruvbox Material Light",
+            "name": "Gruvbox Material Light (my)",
             "purple": "#D3869B",
             "red": "#EA6962",
             "selectionBackground": "#D5C4A1",
@@ -319,7 +317,7 @@
             "cyan": "#2AA198",
             "foreground": "#93A1A1",
             "green": "#859900",
-            "name": "Solarized Dark (modified)",
+            "name": "Solarized Dark (my)",
             "purple": "#D33682",
             "red": "#DC322F",
             "selectionBackground": "#586E75",
@@ -342,7 +340,7 @@
             "cyan": "#2AA198",
             "foreground": "#586E75",
             "green": "#859900",
-            "name": "Solarized Light (modified)",
+            "name": "Solarized Light (my)",
             "purple": "#D33682",
             "red": "#DC322F",
             "selectionBackground": "#EEE8D5",
@@ -352,22 +350,22 @@
     ],
     "tabSwitcherMode": "disabled",
     "tabWidthMode": "titleLength",
-    "theme": "My",
+    "theme": "Dark (my)",
     "themes": 
     [
         {
-            "name": "My",
+            "name": "Dark (my)",
             "tab": 
             {
                 "background": "terminalBackground",
                 "iconStyle": "hidden",
                 "showCloseButton": "always",
-                "unfocusedBackground": null
+                "unfocusedBackground": "terminalBackground"
             },
             "tabRow": 
             {
                 "background": "terminalBackground",
-                "unfocusedBackground": null
+                "unfocusedBackground": "terminalBackground"
             },
             "window": 
             {
