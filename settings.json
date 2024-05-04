@@ -6,21 +6,10 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 95,
-                "relative": false
+                "action": "commandPalette"
             },
-            "id": "User.adjustOpacity.9A817217",
-            "keys": "ctrl+shift+0"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "down"
-            },
-            "id": "User.swapPane.F747588A",
-            "keys": "alt+shift+down"
+            "id": "User.commandPalette.D3F0B923",
+            "keys": "f1"
         },
         {
             "command": 
@@ -34,19 +23,21 @@
         {
             "command": 
             {
-                "action": "commandPalette"
+                "action": "swapPane",
+                "direction": "down"
             },
-            "id": "User.commandPalette.D3F0B923",
-            "keys": "f1"
+            "id": "User.swapPane.F747588A",
+            "keys": "alt+shift+down"
         },
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "left"
+                "action": "adjustOpacity",
+                "opacity": 95,
+                "relative": false
             },
-            "id": "User.resizePane.2A0DA8E0",
-            "keys": "ctrl+alt+left"
+            "id": "User.adjustOpacity.9A817217",
+            "keys": "ctrl+shift+0"
         },
         {
             "command": 
@@ -56,6 +47,15 @@
             },
             "id": "User.resizePane.F747588A",
             "keys": "ctrl+alt+down"
+        },
+        {
+            "command": 
+            {
+                "action": "resizePane",
+                "direction": "left"
+            },
+            "id": "User.resizePane.2A0DA8E0",
+            "keys": "ctrl+alt+left"
         },
         {
             "command": 
@@ -177,13 +177,13 @@
             "cursorShape": "bar",
             "font": 
             {
-                "face": "CaskaydiaCove Nerd Font",
+                "face": "Cascadia Code NF",
                 "features": 
                 {
                     "calt": 1,
                     "ss01": 1
                 },
-                "size": 14.0,
+                "size": 14,
                 "weight": "normal"
             },
             "icon": null,
@@ -377,6 +377,5 @@
             }
         }
     ],
-    "useAcrylicInTabRow": false,
-    "windowingBehavior": "useAnyExisting"
+    "useAcrylicInTabRow": false
 }
