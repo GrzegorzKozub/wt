@@ -240,6 +240,7 @@
                 "size": 12,
                 "weight": "normal"
             },
+            "historySize": 10000,
             "icon": null,
             "intenseTextStyle": "bold",
             "opacity": 95,
