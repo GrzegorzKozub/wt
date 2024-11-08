@@ -30,6 +30,15 @@
             "command": 
             {
                 "action": "adjustOpacity",
+                "opacity": 95,
+                "relative": false
+            },
+            "id": "User.adjustOpacity.9A817217"
+        },
+        {
+            "command": 
+            {
+                "action": "adjustOpacity",
                 "opacity": -5,
                 "relative": true
             },
@@ -46,19 +55,10 @@
         {
             "command": 
             {
-                "action": "adjustOpacity",
-                "opacity": 95,
-                "relative": false
+                "action": "resizePane",
+                "direction": "left"
             },
-            "id": "User.adjustOpacity.9A817217"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "up"
-            },
-            "id": "User.swapPane.6CD791B"
+            "id": "User.resizePane.2A0DA8E0"
         },
         {
             "command": 
@@ -72,10 +72,10 @@
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "left"
+                "action": "swapPane",
+                "direction": "up"
             },
-            "id": "User.resizePane.2A0DA8E0"
+            "id": "User.swapPane.6CD791B"
         },
         {
             "command": 
@@ -133,7 +133,6 @@
         }
     ],
     "centerOnLaunch": true,
-    "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -147,12 +146,12 @@
     "keybindings": 
     [
         {
-            "id": "User.resizePane.87C324ED",
-            "keys": "ctrl+alt+right"
-        },
-        {
             "id": "User.commandPalette.D3F0B923",
             "keys": "f1"
+        },
+        {
+            "id": "User.resizePane.87C324ED",
+            "keys": "ctrl+alt+right"
         },
         {
             "id": "User.adjustOpacity.314FE86D",
@@ -432,5 +431,6 @@
             }
         }
     ],
-    "useAcrylicInTabRow": false
+    "useAcrylicInTabRow": false,
+    "warning.confirmCloseAllTabs": false
 }
