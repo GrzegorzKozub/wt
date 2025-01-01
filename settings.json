@@ -402,6 +402,7 @@
             "yellow": "#B58900"
         }
     ],
+    "searchWebDefaultQueryUrl": "https://www.google.com/search?q=%22%s%22",
     "tabSwitcherMode": "disabled",
     "tabWidthMode": "titleLength",
     "theme": "Dark (my)",
