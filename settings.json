@@ -4,27 +4,24 @@
     "actions": 
     [
         {
+            "command": "togglePaneZoom",
+            "id": "User.togglePaneZoom"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "down",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.10B260D2"
+        },
+        {
             "command": 
             {
                 "action": "commandPalette"
             },
             "id": "User.commandPalette.D3F0B923"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "down"
-            },
-            "id": "User.swapPane.F747588A"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "left"
-            },
-            "id": "User.swapPane.2A0DA8E0"
         },
         {
             "command": 
@@ -47,22 +44,6 @@
         {
             "command": 
             {
-                "action": "resizePane",
-                "direction": "down"
-            },
-            "id": "User.resizePane.F747588A"
-        },
-        {
-            "command": 
-            {
-                "action": "resizePane",
-                "direction": "left"
-            },
-            "id": "User.resizePane.2A0DA8E0"
-        },
-        {
-            "command": 
-            {
                 "action": "adjustOpacity",
                 "opacity": 5,
                 "relative": true
@@ -70,20 +51,8 @@
             "id": "User.adjustOpacity.314FE86D"
         },
         {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "up"
-            },
-            "id": "User.swapPane.6CD791B"
-        },
-        {
-            "command": 
-            {
-                "action": "resizePane",
-                "direction": "right"
-            },
-            "id": "User.resizePane.87C324ED"
+            "command": "markMode",
+            "id": "User.markMode"
         },
         {
             "command": 
@@ -93,39 +62,6 @@
                 "splitMode": "duplicate"
             },
             "id": "User.splitPane.FEF0D40B"
-        },
-        {
-            "command": 
-            {
-                "action": "swapPane",
-                "direction": "right"
-            },
-            "id": "User.swapPane.87C324ED"
-        },
-        {
-            "command": 
-            {
-                "action": "resizePane",
-                "direction": "up"
-            },
-            "id": "User.resizePane.6CD791B"
-        },
-        {
-            "command": "togglePaneZoom",
-            "id": "User.togglePaneZoom"
-        },
-        {
-            "command": 
-            {
-                "action": "splitPane",
-                "split": "down",
-                "splitMode": "duplicate"
-            },
-            "id": "User.splitPane.10B260D2"
-        },
-        {
-            "command": "markMode",
-            "id": "User.markMode"
         },
         {
             "command": "toggleBlockSelection",
@@ -150,52 +86,24 @@
             "keys": "f1"
         },
         {
-            "id": "User.resizePane.87C324ED",
-            "keys": "ctrl+alt+right"
+            "id": "User.adjustOpacity.9A817217",
+            "keys": "ctrl+shift+0"
         },
         {
             "id": "User.adjustOpacity.314FE86D",
             "keys": "ctrl+shift+plus"
         },
         {
-            "id": "User.swapPane.2A0DA8E0",
-            "keys": "alt+shift+left"
-        },
-        {
-            "id": "User.adjustOpacity.9A817217",
-            "keys": "ctrl+shift+0"
-        },
-        {
-            "id": "User.swapPane.F747588A",
-            "keys": "alt+shift+down"
-        },
-        {
-            "id": "User.resizePane.F747588A",
-            "keys": "ctrl+alt+down"
-        },
-        {
-            "id": "User.resizePane.2A0DA8E0",
-            "keys": "ctrl+alt+left"
-        },
-        {
-            "id": "User.swapPane.6CD791B",
-            "keys": "alt+shift+up"
-        },
-        {
             "id": "User.splitPane.FEF0D40B",
             "keys": "alt+shift+v"
         },
         {
-            "id": "User.swapPane.87C324ED",
-            "keys": "alt+shift+right"
-        },
-        {
-            "id": "User.resizePane.6CD791B",
-            "keys": "ctrl+alt+up"
-        },
-        {
             "id": "User.togglePaneZoom",
             "keys": "alt+shift+z"
+        },
+        {
+            "id": "User.toggleBlockSelection",
+            "keys": "ctrl+q"
         },
         {
             "id": "User.splitPane.10B260D2",
@@ -204,10 +112,6 @@
         {
             "id": "User.markMode",
             "keys": "ctrl+shift+["
-        },
-        {
-            "id": "User.toggleBlockSelection",
-            "keys": "ctrl+q"
         },
         {
             "id": "User.adjustOpacity.AA1F04ED",
