@@ -51,10 +51,6 @@
             "id": "User.adjustOpacity.314FE86D"
         },
         {
-            "command": "markMode",
-            "id": "User.markMode"
-        },
-        {
             "command": 
             {
                 "action": "splitPane",
@@ -98,6 +94,10 @@
             "keys": "alt+shift+v"
         },
         {
+            "id": "User.adjustOpacity.AA1F04ED",
+            "keys": "ctrl+shift+minus"
+        },
+        {
             "id": "User.togglePaneZoom",
             "keys": "alt+shift+z"
         },
@@ -108,14 +108,6 @@
         {
             "id": "User.splitPane.10B260D2",
             "keys": "alt+shift+h"
-        },
-        {
-            "id": "User.markMode",
-            "keys": "ctrl+shift+["
-        },
-        {
-            "id": "User.adjustOpacity.AA1F04ED",
-            "keys": "ctrl+shift+minus"
         }
     ],
     "newTabMenu": 
