@@ -91,7 +91,7 @@
         },
         {
             "id": "User.splitPane.FEF0D40B",
-            "keys": "alt+shift+r"
+            "keys": "alt+r"
         },
         {
             "id": "User.adjustOpacity.AA1F04ED",
@@ -107,7 +107,7 @@
         },
         {
             "id": "User.splitPane.10B260D2",
-            "keys": "alt+shift+d"
+            "keys": "alt+d"
         }
     ],
     "newTabMenu": 
