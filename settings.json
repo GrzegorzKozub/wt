@@ -99,7 +99,7 @@
         },
         {
             "id": "User.togglePaneZoom",
-            "keys": "alt+shift+z"
+            "keys": "alt+z"
         },
         {
             "id": "User.toggleBlockSelection",
