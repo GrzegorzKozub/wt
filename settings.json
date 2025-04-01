@@ -121,7 +121,7 @@
         "defaults": 
         {
             "antialiasingMode": "cleartype",
-            "bellStyle": "none",
+            "bellStyle": "taskbar",
             "colorScheme": "Gruvbox Material Dark (my)",
             "cursorShape": "bar",
             "font": 
