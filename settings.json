@@ -141,7 +141,7 @@
             "opacity": 95,
             "padding": "8, 8, 8, 8",
             "scrollbarState": "hidden",
-            "useAcrylic": true
+            "useAcrylic": false
         },
         "list": 
         [
@@ -219,7 +219,7 @@
                 "experimental.rainbowFrame": false,
                 "frame": null,
                 "unfocusedFrame": null,
-                "useMica": false
+                "useMica": true
             }
         }
     ],
