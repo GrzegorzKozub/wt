@@ -154,6 +154,16 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": true,
                 "name": "Command Prompt"
+            },
+            {
+                "guid": "{3268ac94-276e-5aed-ab15-052df51e838b}",
+                "hidden": true,
+                "name": "Developer Command Prompt for VS 2022"
+            },
+            {
+                "guid": "{af4ad660-3cfd-5a51-97a8-3e471aab91ca}",
+                "hidden": true,
+                "name": "Developer PowerShell for VS 2022"
             }
         ]
     },
