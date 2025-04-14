@@ -27,7 +27,7 @@
             "command": 
             {
                 "action": "adjustOpacity",
-                "opacity": 95,
+                "opacity": 90,
                 "relative": false
             },
             "id": "User.adjustOpacity.9A817217"
@@ -83,7 +83,7 @@
         },
         {
             "id": "User.adjustOpacity.9A817217",
-            "keys": "ctrl+shift+0"
+            "keys": "ctrl+shift+backspace"
         },
         {
             "id": "User.adjustOpacity.314FE86D",
@@ -138,10 +138,10 @@
             "historySize": 10000,
             "icon": null,
             "intenseTextStyle": "bold",
-            "opacity": 95,
+            "opacity": 90,
             "padding": "8, 8, 8, 8",
             "scrollbarState": "hidden",
-            "useAcrylic": false
+            "useAcrylic": true
         },
         "list": 
         [
@@ -219,7 +219,7 @@
                 "experimental.rainbowFrame": false,
                 "frame": null,
                 "unfocusedFrame": null,
-                "useMica": true
+                "useMica": false
             }
         }
     ],
