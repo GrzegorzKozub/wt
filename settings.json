@@ -71,7 +71,11 @@
     "disableAnimations": true,
     "disabledProfileSources": 
     [
-        "Windows.Terminal.Azure"
+        "Windows.Terminal.Azure",
+        "Windows.Terminal.SSH",
+        "Windows.Terminal.VisualStudio",
+        "Windows.Terminal.Wsl",
+        "Windows.Terminal.PowershellCore"
     ],
     "initialCols": 120,
     "initialRows": 30,
@@ -94,12 +98,12 @@
             "keys": "alt+r"
         },
         {
-            "id": "User.adjustOpacity.AA1F04ED",
-            "keys": "ctrl+shift+minus"
-        },
-        {
             "id": "User.togglePaneZoom",
             "keys": "alt+z"
+        },
+        {
+            "id": "User.adjustOpacity.AA1F04ED",
+            "keys": "ctrl+shift+minus"
         },
         {
             "id": "User.toggleBlockSelection",
@@ -136,7 +140,6 @@
                 "weight": "normal"
             },
             "historySize": 10000,
-            "icon": null,
             "intenseTextStyle": "bold",
             "opacity": 90,
             "padding": "8, 8, 8, 8",
@@ -148,22 +151,7 @@
             {
                 "commandline": "pwsh.exe -NoLogo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "name": "PowerShell"
-            },
-            {
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": true,
-                "name": "Command Prompt"
-            },
-            {
-                "guid": "{3268ac94-276e-5aed-ab15-052df51e838b}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022"
-            },
-            {
-                "guid": "{af4ad660-3cfd-5a51-97a8-3e471aab91ca}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2022"
+                "name": "pwsh"
             }
         ]
     },
