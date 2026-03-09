@@ -1,14 +1,14 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://raw.githubusercontent.com/microsoft/terminal/main/doc/cascadia/profiles.schema.json",
-    "actions": 
+    "actions":
     [
         {
             "command": "togglePaneZoom",
             "id": "User.togglePaneZoom"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "down",
@@ -17,14 +17,14 @@
             "id": "User.splitPane.10B260D2"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "commandPalette"
             },
             "id": "User.commandPalette.D3F0B923"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "adjustOpacity",
                 "opacity": 90,
@@ -33,7 +33,7 @@
             "id": "User.adjustOpacity.9A817217"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "adjustOpacity",
                 "opacity": -5,
@@ -42,7 +42,7 @@
             "id": "User.adjustOpacity.AA1F04ED"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "adjustOpacity",
                 "opacity": 5,
@@ -51,7 +51,7 @@
             "id": "User.adjustOpacity.314FE86D"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "right",
@@ -69,7 +69,7 @@
     "copyOnSelect": true,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "disableAnimations": true,
-    "disabledProfileSources": 
+    "disabledProfileSources":
     [
         "Windows.Terminal.Azure",
         "Windows.Terminal.SSH",
@@ -79,7 +79,7 @@
     ],
     "initialCols": 120,
     "initialRows": 30,
-    "keybindings": 
+    "keybindings":
     [
         {
             "id": "User.commandPalette.D3F0B923",
@@ -114,24 +114,24 @@
             "keys": "alt+d"
         }
     ],
-    "newTabMenu": 
+    "newTabMenu":
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "antialiasingMode": "cleartype",
             "bellStyle": "taskbar",
             "colorScheme": "Gruvbox Material Dark (my)",
             "cursorShape": "bar",
-            "font": 
+            "font":
             {
                 "face": "Cascadia Code NF",
-                "features": 
+                "features":
                 {
                     "calt": 1,
                     "ss01": 1
@@ -146,7 +146,7 @@
             "scrollbarState": "hidden",
             "useAcrylic": true
         },
-        "list": 
+        "list":
         [
             {
                 "commandline": "pwsh.exe -NoLogo",
@@ -155,7 +155,7 @@
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#32302F",
@@ -185,23 +185,23 @@
     "tabSwitcherMode": "disabled",
     "tabWidthMode": "titleLength",
     "theme": "Dark (my)",
-    "themes": 
+    "themes":
     [
         {
             "name": "Dark (my)",
-            "tab": 
+            "tab":
             {
                 "background": "terminalBackground",
                 "iconStyle": "hidden",
                 "showCloseButton": "always",
                 "unfocusedBackground": "terminalBackground"
             },
-            "tabRow": 
+            "tabRow":
             {
                 "background": "terminalBackground",
                 "unfocusedBackground": "terminalBackground"
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "dark",
                 "experimental.rainbowFrame": false,
