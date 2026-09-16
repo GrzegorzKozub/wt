@@ -4,10 +4,6 @@
     "actions":
     [
         {
-            "command": "togglePaneZoom",
-            "id": "User.togglePaneZoom"
-        },
-        {
             "command":
             {
                 "action": "splitPane",
@@ -22,6 +18,10 @@
                 "action": "commandPalette"
             },
             "id": "User.commandPalette.D3F0B923"
+        },
+        {
+            "command": "togglePaneZoom",
+            "id": "User.togglePaneZoom"
         },
         {
             "command":
@@ -102,12 +102,12 @@
             "keys": "ctrl+shift+plus"
         },
         {
-            "id": "User.splitPane.FEF0D40B",
-            "keys": "alt+r"
-        },
-        {
             "id": "User.togglePaneZoom",
             "keys": "alt+z"
+        },
+        {
+            "id": "User.splitPane.FEF0D40B",
+            "keys": "alt+r"
         },
         {
             "id": "User.adjustOpacity.AA1F04ED",
@@ -218,6 +218,7 @@
                 "applicationTheme": "dark",
                 "experimental.rainbowFrame": false,
                 "frame": null,
+                "showWorkspacesButton": true,
                 "unfocusedFrame": null,
                 "useMica": false
             }
