@@ -139,6 +139,8 @@
             "antialiasingMode": "cleartype",
             "bellStyle": "taskbar",
             "colorScheme": "Gruvbox Material Dark (my)",
+            "compatibility.allowDECRQCRA": true,
+            "compatibility.allowOSC777": true,
             "cursorShape": "bar",
             "font":
             {
