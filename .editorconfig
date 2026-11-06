@@ -8,8 +8,3 @@ indent_size = 2
 insert_final_newline = true
 quote_type = single
 trim_trailing_whitespace = true
-
-[/settings.json]
-end_of_line = crlf
-indent_size = 4
-insert_final_newline = false
